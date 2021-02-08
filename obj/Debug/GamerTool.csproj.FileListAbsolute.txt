@@ -1,0 +1,11 @@
+C:\Users\Precious\source\repos\GamerTool\bin\Debug\GamerTool.exe.config
+C:\Users\Precious\source\repos\GamerTool\bin\Debug\GamerTool.exe
+C:\Users\Precious\source\repos\GamerTool\bin\Debug\GamerTool.pdb
+C:\Users\Precious\source\repos\GamerTool\obj\Debug\GamerTool.csprojAssemblyReference.cache
+C:\Users\Precious\source\repos\GamerTool\obj\Debug\GamerTool.Properties.Resources.resources
+C:\Users\Precious\source\repos\GamerTool\obj\Debug\GamerTool.csproj.GenerateResource.cache
+C:\Users\Precious\source\repos\GamerTool\obj\Debug\GamerTool.csproj.CoreCompileInputs.cache
+C:\Users\Precious\source\repos\GamerTool\obj\Debug\GamerTool.exe
+C:\Users\Precious\source\repos\GamerTool\obj\Debug\GamerTool.pdb
+C:\Users\Precious\source\repos\GamerTool\obj\Debug\GamerTool.GamerTool.resources
+C:\Users\Precious\source\repos\GamerTool\obj\Debug\GamerTool.DimensionLog.resources
