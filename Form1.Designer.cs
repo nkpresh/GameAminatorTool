@@ -244,7 +244,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 40);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(45, 389);
+            this.panel2.Size = new System.Drawing.Size(45, 418);
             this.panel2.TabIndex = 4;
             // 
             // button11
@@ -399,7 +399,7 @@
             this.panel4.Controls.Add(this.panel21);
             this.panel4.Controls.Add(this.panel18);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 429);
+            this.panel4.Location = new System.Drawing.Point(0, 458);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1043, 226);
             this.panel4.TabIndex = 3;
@@ -411,9 +411,9 @@
             this.runningPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.runningPanel.Controls.Add(this.runningLine);
             this.runningPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.runningPanel.Location = new System.Drawing.Point(367, 59);
+            this.runningPanel.Location = new System.Drawing.Point(343, 59);
             this.runningPanel.Name = "runningPanel";
-            this.runningPanel.Size = new System.Drawing.Size(676, 167);
+            this.runningPanel.Size = new System.Drawing.Size(700, 167);
             this.runningPanel.TabIndex = 12;
             // 
             // runningLine
@@ -422,9 +422,9 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.runningLine.BackgroundImage = global::GamerTool.Properties.Resources.Untitled_1;
             this.runningLine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.runningLine.Location = new System.Drawing.Point(-2, 0);
+            this.runningLine.Location = new System.Drawing.Point(0, 0);
             this.runningLine.Name = "runningLine";
-            this.runningLine.Size = new System.Drawing.Size(10, 162);
+            this.runningLine.Size = new System.Drawing.Size(10, 165);
             this.runningLine.TabIndex = 0;
             // 
             // panel22
@@ -435,7 +435,7 @@
             this.panel22.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel22.Location = new System.Drawing.Point(0, 59);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(367, 167);
+            this.panel22.Size = new System.Drawing.Size(343, 167);
             this.panel22.TabIndex = 0;
             // 
             // tabControl2
@@ -447,7 +447,7 @@
             this.tabControl2.Location = new System.Drawing.Point(0, 33);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(367, 134);
+            this.tabControl2.Size = new System.Drawing.Size(343, 134);
             this.tabControl2.TabIndex = 7;
             // 
             // tabPage1
@@ -459,7 +459,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(359, 108);
+            this.tabPage1.Size = new System.Drawing.Size(335, 108);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dopesheet";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -512,17 +512,19 @@
             this.TimeInterval.LargeChange = 1;
             this.TimeInterval.Location = new System.Drawing.Point(-1, 3);
             this.TimeInterval.Maximum = 100;
+            this.TimeInterval.Minimum = 1;
             this.TimeInterval.Name = "TimeInterval";
             this.TimeInterval.Size = new System.Drawing.Size(360, 23);
             this.TimeInterval.TabIndex = 17;
             this.TimeInterval.TickFrequency = 15;
+            this.TimeInterval.Value = 1;
             // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(359, 108);
+            this.tabPage2.Size = new System.Drawing.Size(331, 108);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Curve";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -536,7 +538,7 @@
             this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel24.Location = new System.Drawing.Point(0, 0);
             this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(367, 33);
+            this.panel24.Size = new System.Drawing.Size(343, 33);
             this.panel24.TabIndex = 6;
             // 
             // comboBox2
@@ -576,7 +578,7 @@
             this.panel19.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel19.Location = new System.Drawing.Point(0, 0);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(367, 28);
+            this.panel19.Size = new System.Drawing.Size(343, 28);
             this.panel19.TabIndex = 9;
             // 
             // button21
@@ -587,9 +589,9 @@
             this.button21.Dock = System.Windows.Forms.DockStyle.Right;
             this.button21.FlatAppearance.BorderSize = 0;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(84, 0);
+            this.button21.Location = new System.Drawing.Point(165, 0);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(40, 28);
+            this.button21.Size = new System.Drawing.Size(23, 28);
             this.button21.TabIndex = 15;
             this.button21.UseVisualStyleBackColor = false;
             // 
@@ -601,9 +603,9 @@
             this.button17.Dock = System.Windows.Forms.DockStyle.Right;
             this.button17.FlatAppearance.BorderSize = 0;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(124, 0);
+            this.button17.Location = new System.Drawing.Point(188, 0);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(43, 28);
+            this.button17.Size = new System.Drawing.Size(26, 28);
             this.button17.TabIndex = 11;
             this.button17.UseVisualStyleBackColor = false;
             // 
@@ -615,9 +617,9 @@
             this.play.Dock = System.Windows.Forms.DockStyle.Right;
             this.play.FlatAppearance.BorderSize = 0;
             this.play.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.play.Location = new System.Drawing.Point(167, 0);
+            this.play.Location = new System.Drawing.Point(214, 0);
             this.play.Name = "play";
-            this.play.Size = new System.Drawing.Size(40, 28);
+            this.play.Size = new System.Drawing.Size(23, 28);
             this.play.TabIndex = 12;
             this.play.UseVisualStyleBackColor = false;
             this.play.Click += new System.EventHandler(this.play_Click_1);
@@ -630,9 +632,9 @@
             this.button19.Dock = System.Windows.Forms.DockStyle.Right;
             this.button19.FlatAppearance.BorderSize = 0;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(207, 0);
+            this.button19.Location = new System.Drawing.Point(237, 0);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(40, 28);
+            this.button19.Size = new System.Drawing.Size(23, 28);
             this.button19.TabIndex = 13;
             this.button19.UseVisualStyleBackColor = false;
             this.button19.Click += new System.EventHandler(this.button19_Click);
@@ -645,9 +647,9 @@
             this.button20.Dock = System.Windows.Forms.DockStyle.Right;
             this.button20.FlatAppearance.BorderSize = 0;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(247, 0);
+            this.button20.Location = new System.Drawing.Point(260, 0);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(40, 28);
+            this.button20.Size = new System.Drawing.Size(23, 28);
             this.button20.TabIndex = 14;
             this.button20.UseVisualStyleBackColor = false;
             // 
@@ -658,9 +660,9 @@
             this.panel20.Controls.Add(this.Refresh);
             this.panel20.Controls.Add(this.button22);
             this.panel20.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel20.Location = new System.Drawing.Point(287, 0);
+            this.panel20.Location = new System.Drawing.Point(283, 0);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(80, 28);
+            this.panel20.Size = new System.Drawing.Size(60, 28);
             this.panel20.TabIndex = 10;
             // 
             // Refresh
@@ -670,9 +672,9 @@
             this.Refresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Refresh.FlatAppearance.BorderSize = 0;
             this.Refresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Refresh.Location = new System.Drawing.Point(39, 2);
+            this.Refresh.Location = new System.Drawing.Point(36, 5);
             this.Refresh.Name = "Refresh";
-            this.Refresh.Size = new System.Drawing.Size(30, 22);
+            this.Refresh.Size = new System.Drawing.Size(18, 20);
             this.Refresh.TabIndex = 7;
             this.Refresh.UseVisualStyleBackColor = false;
             this.Refresh.Click += new System.EventHandler(this.Refresh_Click);
@@ -684,9 +686,9 @@
             this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button22.FlatAppearance.BorderSize = 0;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(3, 2);
+            this.button22.Location = new System.Drawing.Point(5, 5);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(30, 22);
+            this.button22.Size = new System.Drawing.Size(27, 20);
             this.button22.TabIndex = 6;
             this.button22.UseVisualStyleBackColor = false;
             // 
@@ -924,7 +926,7 @@
             this.panel17.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel17.Location = new System.Drawing.Point(776, 40);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(267, 389);
+            this.panel17.Size = new System.Drawing.Size(267, 418);
             this.panel17.TabIndex = 0;
             // 
             // panel3
@@ -937,7 +939,7 @@
             this.panel3.Location = new System.Drawing.Point(45, 40);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(242, 389);
+            this.panel3.Size = new System.Drawing.Size(242, 418);
             this.panel3.TabIndex = 18;
             // 
             // panel5
@@ -950,7 +952,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(242, 181);
+            this.panel5.Size = new System.Drawing.Size(242, 210);
             this.panel5.TabIndex = 2;
             // 
             // panel9
@@ -962,7 +964,7 @@
             this.panel9.Controls.Add(this.button14);
             this.panel9.Controls.Add(this.button13);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 154);
+            this.panel9.Location = new System.Drawing.Point(0, 183);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(242, 27);
             this.panel9.TabIndex = 5;
@@ -1127,7 +1129,7 @@
             this.tabControl1.Controls.Add(this.Switches);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tabControl1.ItemSize = new System.Drawing.Size(87, 18);
-            this.tabControl1.Location = new System.Drawing.Point(0, 181);
+            this.tabControl1.Location = new System.Drawing.Point(0, 210);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(242, 208);
@@ -1184,7 +1186,7 @@
             this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel16.Location = new System.Drawing.Point(287, 40);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(489, 389);
+            this.panel16.Size = new System.Drawing.Size(489, 418);
             this.panel16.TabIndex = 19;
             // 
             // Canvas
@@ -1198,7 +1200,7 @@
             this.Canvas.MaximumSize = new System.Drawing.Size(700, 900);
             this.Canvas.MinimumSize = new System.Drawing.Size(250, 250);
             this.Canvas.Name = "Canvas";
-            this.Canvas.Size = new System.Drawing.Size(400, 376);
+            this.Canvas.Size = new System.Drawing.Size(400, 405);
             this.Canvas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Canvas.TabIndex = 20;
             this.Canvas.TabStop = false;
@@ -1212,7 +1214,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.BackgroundImage = global::GamerTool.Properties.Resources.Rectangle_119;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1043, 655);
+            this.ClientSize = new System.Drawing.Size(1043, 684);
             this.Controls.Add(this.panel16);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel17);
@@ -1222,7 +1224,6 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximumSize = new System.Drawing.Size(1400, 800);
             this.MinimumSize = new System.Drawing.Size(600, 500);
             this.Name = "GamerTool";
             this.Text = "Game Editor";
